@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="202.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLLoginController">
+   <children>
+      <Pane prefHeight="549.0" prefWidth="606.0" style="-fx-background-color: #FFF;">
+         <children>
+            <Pane prefHeight="144.0" prefWidth="606.0" style="-fx-background-color: #00D25D;">
+               <children>
+                  <ImageView fitHeight="144.0" fitWidth="114.0" layoutX="252.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/BRT.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <TextField fx:id="tfLogin" layoutX="185.0" layoutY="327.0" prefHeight="27.0" prefWidth="254.0" promptText="Admin" style="-fx-border-color: green;" />
+            <Button fx:id="btEntrar" alignment="CENTER" layoutX="182.0" layoutY="445.0" mnemonicParsing="false" onAction="#btEntrar" prefHeight="39.0" prefWidth="261.0" style="-fx-border-color: green; -fx-background-color: #FF7700;" text="Logar " />
+            <PasswordField fx:id="psSenha" layoutX="185.0" layoutY="388.0" prefHeight="27.0" prefWidth="254.0" promptText="Senha" style="-fx-border-color: green;" />
+            <Text layoutX="213.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seja bem-vindo ao LOGIN" textAlignment="CENTER" wrappingWidth="205.509765625">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Pane layoutY="144.0" prefHeight="25.0" prefWidth="606.0" style="-fx-background-color: #FF7700;" />
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="397.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logot.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="114.0" prefWidth="769.0" style="-fx-background-color: #00D25D;">
+         <children>
+            <ImageView fitHeight="108.0" fitWidth="126.0" layoutX="322.0" layoutY="3.0">
+               <image>
+                  <Image url="@../img/joinha-png-6.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutY="114.0" prefHeight="25.0" prefWidth="769.0" style="-fx-background-color: #FF7700;" />
+      <Text fill="#47525e" layoutX="285.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIM">
+         <font>
+            <Font size="120.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="285.0" layoutY="146.0">
+         <image>
+            <Image url="@../img/brasão%20da%20escola.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

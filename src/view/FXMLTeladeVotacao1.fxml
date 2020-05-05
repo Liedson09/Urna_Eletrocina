@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLTeladeVotacaoController">
+   <children>
+      <Pane fx:id="pane" prefHeight="650.0" prefWidth="750.0" style="-fx-background-color: white;">
+         <children>
+            <Pane prefHeight="112.0" prefWidth="750.0" style="-fx-background-color: #00b300;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="106.0" layoutX="322.0" opacity="0.86">
+                     <image>
+                        <Image url="@../img/vot.png" />
+                     </image>
+                  </ImageView>
+                  <Text fontSmoothingType="LCD" layoutX="302.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Votação" wrappingWidth="146.0">
+                     <fill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#fafafa" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </fill>
+                     <font>
+                        <Font name="Georgia Bold" size="34.0" />
+                     </font>
+                  </Text>
+                  <Line endX="467.0" layoutX="280.0" layoutY="109.0" startX="-277.0" stroke="#f59118" strokeDashOffset="10.0" strokeMiterLimit="80.0" strokeWidth="6.0" />
+                  <Line endX="639.0" layoutX="109.0" layoutY="106.0" startX="-108.0" stroke="WHITE" strokeDashOffset="10.0" strokeMiterLimit="80.0" strokeWidth="3.0" />
+               </children>
+            </Pane>
+            <Text layoutX="254.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chapa:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <TextField fx:id="c1" layoutX="261.0" layoutY="301.0" prefHeight="25.0" prefWidth="31.0" />
+            <TextField fx:id="c2" layoutX="314.0" layoutY="301.0" prefHeight="25.0" prefWidth="31.0" />
+            <Label fx:id="lbChapa" layoutX="159.0" layoutY="346.0" />
+            <Text layoutX="117.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seu voto para:">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Line endX="650.0" layoutX="100.0" layoutY="530.0" startX="-100.0" strokeWidth="3.0" />
+            <Text layoutX="14.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aperte a tecla:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="601.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VERDE para CONFIRMAR">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="15.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LARANJA para CORRIGIR">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="117.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Label fx:id="nome" layoutX="188.0" layoutY="408.0" prefHeight="25.0" prefWidth="146.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

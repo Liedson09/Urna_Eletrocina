@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLApuracaoController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;">
+         <children>
+            <Pane layoutX="-13.0" layoutY="-7.0" prefHeight="127.0" prefWidth="630.0" style="-fx-background-color: #00D25D; -fx-border-color: white; -fx-border-width: 3;">
+               <children>
+                  <Text fontSmoothingType="LCD" layoutX="189.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apuração de votos" textAlignment="CENTER" wrappingWidth="221.88720703125">
+                     <fill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#fafafa" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </fill>
+                     <font>
+                        <Font name="Georgia Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="189.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane layoutX="-15.0" layoutY="108.0" prefHeight="25.0" prefWidth="630.0" style="-fx-background-color: #FF7700;" />
+            <TableView fx:id="tabela" layoutX="25.0" layoutY="136.0" prefHeight="250.0" prefWidth="542.0">
+              <columns>
+                <TableColumn fx:id="numero" prefWidth="75.0" text="Número" />
+                  <TableColumn fx:id="nome" minWidth="0.0" prefWidth="260.0" text="Chapa" />
+                  <TableColumn fx:id="total" prefWidth="97.0" text="Total" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
